@@ -68,7 +68,7 @@ class MyGUI:
 
 
     def getWeather(self,location):
-        apiKey = 'cd32d78eaf78b54f78021be696a47c06'
+        apiKey = 'YOUR API KEY'
         url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={apiKey}&units=metric"
         response = requests.get(url)
         if response.status_code == 200:
