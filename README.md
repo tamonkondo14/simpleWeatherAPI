@@ -10,7 +10,10 @@ Using Tkinter, I created a simple GUI and users can input the city they are tryi
 4. Temperature in both C and F
 5. Sun Rise and Sun Down
 
-![Preview](Screen Shot 2023-07-16 at 1.12.20 PM.png)
-![Preview](Screen Shot 2023-07-16 at 1.12.52 PM.png)
+![Preview] (https://github.com/tamonkondo14/simpleWeatherAPI/blob/e66331a1921a65b1af71f8aac62d23b849803bf0/Screen%20Shot%202023-07-16%20at%201.12.20%20PM.png)
+
+![Preview](./simpleWeatherAPI/Screen Shot 2023-07-16 at 1.12.20 PM.png)
+
+![Preview](./simpleWeatherAPI/Screen Shot 2023-07-16 at 1.12.52 PM.png)
 
 As for requests, with Open Weather's API being compatible with JSON, I created a JSON and printed it to the terminal to see what data was being pulled and the units of measurement. Determining which data users would most likely see, I returned the values I wanted from the getWeather() function.
